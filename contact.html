@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- 문자 인코딩 설정 -->
+  <meta charset="utf-8">
+  <!-- 모바일 반응형 화면을 위한 설정 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- 페이지 설명 및 작성자 -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- 웹 폰트 로딩 -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+  <title>Tramit - 게시판</title>
+
+  <!-- 부트스트랩 CSS (반응형 레이아웃 지원) -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- 추가 CSS 파일 -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+</head>
+
+<body>
+
+  <!-- ***** 페이지 로딩시 표시되는 로딩 애니메이션 ***** -->
+  <!-- <div id="preloader">
+    <div class="jumper">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>   -->
+
+  <!-- ***** 상단 헤더 영역 ***** -->
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- 사이트 로고 -->
+        <a class="navbar-brand" href="index.html"><h2>Tramit</h2></a>
+        <!-- 모바일 메뉴 토글 버튼 -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 메뉴 리스트 -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html">맛집</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">여행지</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contact.html">게시판</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ***** 상단 배너 텍스트 ***** -->
+  <div class="page-heading contact-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-content">
+            <h4>contact us</h4>
+            <h2>let’s get in touch</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** 구글 지도 영역 ***** -->
+  <div class="find-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><div class="section-heading"><h2>Our Location on Maps</h2></div></div>
+        <div class="col-md-8">
+          <div id="map">
+            <!-- 구글 지도 iframe -->
+            <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- 사무실 소개 영역 -->
+          <div class="left-content">
+            <h4>About our office</h4>
+            <p>회사 소개용 텍스트(예시 텍스트 사용)</p>
+            <!-- SNS 아이콘 -->
+            <ul class="social-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** 메시지 전송 폼 ***** -->
+  <div class="send-message">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><div class="section-heading"><h2>Send us a Message</h2></div></div>
+        <div class="col-md-8">
+          <!-- 문의 폼 -->
+          <div class="contact-form">
+            <form id="contact" action="" method="post">
+              <div class="row">
+                <!-- 이름 입력 -->
+                <div class="col-lg-12"><fieldset><input name="name" type="text" class="form-control" placeholder="Full Name" required=""></fieldset></div>
+                <!-- 이메일 입력 -->
+                <div class="col-lg-12"><fieldset><input name="email" type="text" class="form-control" placeholder="E-Mail Address" required=""></fieldset></div>
+                <!-- 제목 입력 -->
+                <div class="col-lg-12"><fieldset><input name="subject" type="text" class="form-control" placeholder="Subject" required=""></fieldset></div>
+                <!-- 메시지 입력 -->
+                <div class="col-lg-12"><fieldset><textarea name="message" rows="6" class="form-control" placeholder="Your Message" required=""></textarea></fieldset></div>
+                <!-- 전송 버튼 -->
+                <div class="col-lg-12"><fieldset><button type="submit" class="filled-button">Send Message</button></fieldset></div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- 아코디언 FAQ 영역 -->
+        <div class="col-md-4">
+          <ul class="accordion">
+            <li><a>Accordion Title One</a><div class="content"><p>설명 텍스트</p></div></li>  
+            <li><a>Second Title Here</a><div class="content"><p>설명 텍스트</p></div></li>
+            <li><a>Accordion Title Three</a><div class="content"><p>설명 텍스트</p></div></li>
+            <li><a>Fourth Accordion Title</a><div class="content"><p>설명 텍스트</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** 고객 로고 슬라이더 ***** -->
+  <div class="happy-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><div class="section-heading"><h2>Our Happy Customers</h2></div></div>
+        <div class="col-md-12">
+          <!-- Owl Carousel 슬라이더 -->
+          <div class="owl-clients owl-carousel">
+            <div class="client-item"><img src="assets/images/client-01.png" alt="1"></div>
+            <div class="client-item"><img src="assets/images/client-01.png" alt="2"></div>
+            <div class="client-item"><img src="assets/images/client-01.png" alt="3"></div>
+            <div class="client-item"><img src="assets/images/client-01.png" alt="4"></div>
+            <div class="client-item"><img src="assets/images/client-01.png" alt="5"></div>
+            <div class="client-item"><img src="assets/images/client-01.png" alt="6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** 하단 푸터 ***** -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="inner-content">
+            <p>Copyright &copy; 2020 Sixteen Clothing Co., Ltd. - Design by <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ***** 스크립트 로딩 ***** -->
+  <!-- jQuery 및 부트스트랩 관련 -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- 추가 JavaScript 파일 -->
+  <script src="assets/js/custom.js"></script>asdsad
+  <script src="assets/js/owl.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/isotope.js"></script>
+  <script src="assets/js/accordions.js"></script>
+
+  <!-- 입력 필드 초기화용 자바스크립트 -->
+  <script language="text/Javascript"> 
+    cleared[0] = cleared[1] = cleared[2] = 0; // 각 입력 필드 초기화 여부 표시
+    function clearField(t) {
+      if (!cleared[t.id]) {
+        cleared[t.id] = 1;  // 한 번만 초기화되도록 설정
+        t.value = '';       // 입력값 제거
+        t.style.color = '#fff';  // 글자색 변경
+      }
+    }
+  </script>
+
+</body>
+</html>
